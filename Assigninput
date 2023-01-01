@@ -1,0 +1,47 @@
+//Q1 - Input name, roll number and field of interest from user and print in the format below :
+Name: xyz, Roll number: xyz, Field of interest: xyz
+
+        Scanner s=new Scanner(System.in);
+        System.out.println("Enter ur details below:");
+        String fn=s.next();
+        String ln=s.next();
+        int r=s.nextInt();
+        String f=s.next();
+
+        System.out.println("Name:"+fn+" "+ln);
+        System.out.println("ROLLno:"+r);
+        System.out.println("Field:"+f);
+
+//Q2 - Input two different string and print them in same line.
+
+
+        Scanner d=new Scanner(System.in);
+        String s=d.nextLine();
+        String f=d.nextLine();
+        System.out.print(s);
+        System.out.println(f);
+
+//Q3 - If the marks of Robert in three subjects are entered through keyboard (each out of
+100), write a program to calculate his total marks and percentage marks.
+
+        System.out.println("Enter marks of robert");
+        Scanner m=new Scanner(System.in);
+        int a=m.nextInt();
+        int b=m.nextInt();
+        int c=m.nextInt();
+        int sum=a+b+c;
+        System.out.println("sum of 3 sub:"+sum);
+         int  percentage=sum/3;
+       System.out.println("percentage:"+percentage);
+       
+     
+ //Q5 - Given few lines of input(number of lines unknown) where each line has two
+strings, concatenate the strings.
+
+    Scanner s=new Scanner(System.in);
+        while(s.hasNext()) {
+            String a = s.next();
+            String b = s.next();
+            System.out.println(a+b);
+        }
+
