@@ -1,0 +1,43 @@
+public class assignvar {
+    public static void main(String[] args)
+    {
+       
+        // Q1 - Take 2 integer values in two variables x and y and print their product.
+        int x=2;
+        int y=4;
+        int product=x*y;
+        System.out.println("product of x and y:"+product);
+       
+       
+        //Q2 - Print the ASCII value of character ‘U’.
+        int x='U';
+        System.out.println("Ascii value of U is:"+x);
+
+
+        //Q3 - Write a Java program to take the length and breadth of a rectangle and print its area.
+        int l=7;
+        int b=4;
+        int area=l*b;
+        System.out.println("area of rectangle:"+area);\
+
+
+        //Q4 - Write a Java program to calculate the cube of a number.
+        int c=4;
+        System.out.println("cube of c is:"+c*c*c);
+
+         
+        //Q5 - Write a Java program to swap two numbers with the help of a third variable.
+        int a=2;
+        int b=3;
+        int temp;
+        System.out.println("before swapping");
+        System.out.print(a+",");
+        System.out.println(b);
+        temp=a;
+        a=b;
+        b=temp;
+        System.out.println("after swapping");
+        System.out.print(a+",");
+        System.out.println(b);
+    }
+}
