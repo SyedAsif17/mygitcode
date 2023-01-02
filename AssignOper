@@ -1,0 +1,78 @@
+
+import java.util.Scanner;
+public class AssignOper
+{
+public static void main()
+{
+  //Q1 - Write a program to add 8 to the number x and then divide it by 3. Now, the modulus of the quotient
+is taken with 5 and then multiply the resultant value by 5. Display the final result.
+
+        Scanner s=new Scanner(System.in);
+        int x=s.nextInt();
+        int result=((((x+8)/3)%5) * 5);
+        System.out.println(result);
+        
+        
+        
+        //Q2 - Swap two numbers without the use of third variable.
+        
+         int a,b;
+        Scanner s=new Scanner(System.in);
+        a=s.nextInt();
+        b=s.nextInt();
+        System.out.println("before swap:");
+        System.out.println(a);
+        System.out.println(b);
+        System.out.println("after swap:");
+
+
+        a=a+b;
+        b=a-b;
+        a=a-b;
+        System.out.println(a);
+        System.out.println(b);
+        
+        
+        
+        
+        //Q3 - Write a program to calculate the sum of the digits of a 3-digit number.
+        
+        
+        int x;
+        Scanner d=new Scanner(System.in);
+        x=d.nextInt();
+        int sum=0;
+        while(x > 0) {
+            sum =sum+ x % 10;
+            x = x/10;
+        }
+
+        System.out.println(sum);
+        
+        
+
+      //Q4 - Assign values of variables 'a' and 'b' as 55 and 70 respectively and then check if:
+      i) both the conditions 'a < 50' and 'a < b' are true.
+      ii) at least one of the conditions 'a < 50' or 'a < b' is true.
+      
+      
+      
+        int a=55;
+        int b=70;
+        if(a<50 && a<b)
+        {
+            System.out.println("Both are true");
+        }
+        else if(a<50 || a<b)
+        {
+            System.out.println("Anyone is true");
+        }
+        
+        
+       }
+       }
+       
+
+
+
+      
